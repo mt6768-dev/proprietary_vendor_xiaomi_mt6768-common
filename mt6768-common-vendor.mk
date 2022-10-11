@@ -714,6 +714,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libcam.halsensor.hwintegration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.hwintegration.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libccci_util.so \
+    vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libcrypto-mdapp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcrypto-mdapp.so \
+    vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libcurl-md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl-md.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libcurl_xcap_md.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcurl_xcap_md.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
@@ -959,6 +961,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libcamera_scene.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamera_scene.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcares_naptr.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libccci_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libccci_util.so \
+    vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libcrypto-mdapp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcrypto-mdapp.so \
+    vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libcurl-md.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcurl-md.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libcurl_xcap_md.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcurl_xcap_md.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
     vendor/xiaomi/mt6768-common/proprietary/vendor/lib64/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpframework.so \
