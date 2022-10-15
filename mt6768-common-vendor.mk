@@ -121,22 +121,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/MNL_Config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/MNL_Config.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W2040:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W2040 \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/apdb/APDB_MT6768_S01__W2040_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6768_S01__W2040_ENUM \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/BtInfo_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/HpImpedance_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/MicInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/MicInfo_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackACF_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackDRC_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackHCF_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolAna_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolDigi_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/PlaybackVolUI_ParamUnitDesc.xml \
@@ -145,30 +139,21 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Playback_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordDMNR_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordFIR_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordUI_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_AudioParam.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RecordVol_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamTreeView.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Record_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/RingbackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVolUI_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/RingbackVol_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SmartPa_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SmartPa_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SmartPa_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SoundEnhancement_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SoundEnhancement_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechDMNR_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechEchoRef_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SpeechGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechGeneral_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SpeechMagiClarity_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechMagiClarity_ParamUnitDesc.xml \
@@ -178,9 +163,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechUI_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/SpeechVol_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamTreeView.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Speech_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/USBCall_AudioParam.xml \
@@ -197,18 +180,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPUI_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPVol_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamTreeView.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIP_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2DMNR_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2General_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2UI_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamTreeView.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoIPv2_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VoWDspAec_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VoWDspAec_AudioParam.xml \
@@ -221,22 +201,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/Volume_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/AudioParamOptions.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/BtInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/BtInfo_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/BtInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/BtInfo_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/HpImpedance_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/HpImpedance_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/HpImpedance_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/HpImpedance_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/MicInfo_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/MicInfo_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/MicInfo_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/MicInfo_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/PlaybackACF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackACF_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/PlaybackACF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackACF_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/PlaybackDRC_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackDRC_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/PlaybackDRC_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackDRC_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/PlaybackHCF_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackHCF_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/PlaybackHCF_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackHCF_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/PlaybackVolAna_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackVolAna_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/PlaybackVolAna_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackVolAna_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/PlaybackVolDigi_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackVolDigi_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/PlaybackVolDigi_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackVolDigi_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/PlaybackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackVolUI_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/PlaybackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/PlaybackVolUI_ParamUnitDesc.xml \
@@ -245,30 +219,21 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/Playback_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Playback_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/RecordDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordDMNR_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/RecordDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordDMNR_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/RecordFIR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordFIR_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/RecordFIR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordFIR_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/RecordUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordUI_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/RecordUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordUI_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/RecordVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordVolUI_AudioParam.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/RecordVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/RecordVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordVol_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/RecordVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RecordVol_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/Record_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Record_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/Record_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Record_ParamTreeView.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/Record_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Record_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/RingbackVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RingbackVolUI_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/RingbackVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RingbackVolUI_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/RingbackVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RingbackVol_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/RingbackVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/RingbackVol_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SmartPa_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SmartPa_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SmartPa_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SmartPa_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SoundEnhancement_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SoundEnhancement_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SoundEnhancement_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SoundEnhancement_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SpeechDMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechDMNR_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SpeechDMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechDMNR_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SpeechEchoRef_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechEchoRef_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SpeechEchoRef_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechEchoRef_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SpeechGeneral_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechGeneral_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SpeechGeneral_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechGeneral_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SpeechMagiClarity_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechMagiClarity_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SpeechMagiClarity_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechMagiClarity_ParamUnitDesc.xml \
@@ -278,9 +243,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SpeechUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechUI_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SpeechVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechVolUI_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SpeechVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SpeechVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechVol_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/SpeechVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/SpeechVol_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/Speech_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Speech_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/Speech_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Speech_ParamTreeView.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/Speech_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/Speech_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/USBCall_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/USBCall_AudioParam.xml \
@@ -297,18 +260,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIPUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPUI_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIPVolUI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPVolUI_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIPVolUI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPVolUI_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIPVol_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPVol_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIPVol_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPVol_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIP_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIP_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIP_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIP_ParamTreeView.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIP_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIP_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIPv2DMNR_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2DMNR_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIPv2DMNR_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2DMNR_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIPv2General_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2General_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIPv2General_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2General_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIPv2UI_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2UI_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIPv2UI_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2UI_ParamUnitDesc.xml \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIPv2_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2_AudioParam.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIPv2_ParamTreeView.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2_ParamTreeView.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoIPv2_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoIPv2_ParamUnitDesc.xml \
     vendor/xiaomi/mt6768-common/proprietary/vendor/etc/audio_param_ce/VoWDspAec_AudioParam.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param_ce/VoWDspAec_AudioParam.xml \
