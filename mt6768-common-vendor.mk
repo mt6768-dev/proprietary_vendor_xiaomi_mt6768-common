@@ -89,7 +89,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/md_monitor:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/md_monitor_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor_ctrl \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/mi_thermald:$(TARGET_COPY_OUT_VENDOR)/bin/mi_thermald \
-    vendor/xiaomi/mt6768-common/proprietary/vendor/bin/misc_writer:$(TARGET_COPY_OUT_VENDOR)/bin/misc_writer \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/mmc_ffu:$(TARGET_COPY_OUT_VENDOR)/bin/mmc_ffu \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/mmc_ffu_hynix:$(TARGET_COPY_OUT_VENDOR)/bin/mmc_ffu_hynix \
     vendor/xiaomi/mt6768-common/proprietary/vendor/bin/mmc_ffu_micron:$(TARGET_COPY_OUT_VENDOR)/bin/mmc_ffu_micron \
